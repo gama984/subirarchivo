@@ -1,0 +1,45 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:layout_gravity="center_vertical|center_horizontal"
+    >
+    
+     <TextView
+        android:id="@+id/txtNombreArchivo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="200dp"
+        android:padding="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/txt_filename"
+         />
+
+    <Button
+        android:id="@+id/btnBuscar"
+        android:layout_weight="1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"       
+        android:text="@string/buscar"
+        android:padding="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@android:color/white"
+        android:drawableLeft="@drawable/ic_action_folder_open"
+        android:background="@drawable/btn_buscar" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/btnSubir"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subir"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/btn_subir"
+        android:padding="10dp"
+        android:textColor="@android:color/white"
+        />
+    
+</LinearLayout>
